@@ -1,0 +1,5 @@
+"frame_id","source","phenomenon","affected_field","effect_on_label"
+"D03","real_IR","Hai người đọc độ rõ mắt trái khác nhau trong khung NIR; theo review của Nguyễn Đức Anh, cả cách gán open và unknown đều hợp lý.","eye_left","Giữ nhãn mine=open; ghi nhận unknown là cách gán thận trọng khi người gán không thấy rõ khe mắt."
+"D04","real_IR","Hai người đánh giá khả năng xác định kính khác nhau trên khung NIR; theo review của Nguyễn Đức Anh, none và unknown đều hợp lý.","glasses","Giữ nhãn mine=none; dùng unknown nếu người gán không xác định được vùng mắt/kính."
+"D05","real_IR","Hai người diễn giải trạng thái mắt trái khác nhau; theo review của Nguyễn Đức Anh, closed và unknown đều phù hợp với mức độ quan sát của từng người.","eye_left","Ghi closed theo nhãn mine; nếu không thấy rõ mí khép thì guideline cho phép unknown."
+"S01_ir","IR_sim","Trong ảnh IR mô phỏng, nhãn mắt trái khác nhau giữa hai người; đây là khác biệt diễn giải trong review, không dùng để suy ra hiệu ứng của NIR thật.","eye_left","Mine ghi unknown; peer ghi open. Giữ unknown theo nhãn mine; không khái quát hiệu ứng IR thật từ IR-sim."
